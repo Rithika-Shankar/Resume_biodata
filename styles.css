@@ -1,0 +1,129 @@
+body {
+    background-color: #f6f6f2;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #388087;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin: 10px auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #504d4d70;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #388087;
+}
+
+.fig2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.fig2 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.fig2:hover img {
+    transform: scale(1.05);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: background-color 0.5s ease;
+}
+
+.fig2:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.view-resume-button {
+    position: absolute;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.view-resume-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.view-resume-button:focus {
+    outline: none;
+}
+
+footer {
+    background-color: #388087;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin: 10px auto;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+footer nav {
+    margin-top: 10px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+footer nav a:hover {
+    background-color: #504d4d70;
+}
